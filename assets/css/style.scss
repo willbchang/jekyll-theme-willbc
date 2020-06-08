@@ -1,0 +1,42 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: orange !important;
+  background-image: url(https://willbc.cn/img/favicon-32x32.png);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: left 50%;
+  padding-left: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 0;
+}
+
+nav li {
+  font-size: 20px;
+  display: inline-block;
+  padding-left: 40px;
+}
+
+@media screen and (min-width: 64em) {
+  .main-content {
+    padding: 2rem 3rem;
+  }
+}

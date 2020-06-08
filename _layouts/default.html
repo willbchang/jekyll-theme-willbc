@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <title>Code</title>
+    <link rel="shortcut icon" href="https://willbc.cn/img/favicon-32x32.png" sizes="32x32" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision |relative_url }}">
+  </head>
+  <body>
+    <nav>
+      <a class="navbar-brand" href="https://willbc.cn">Will B Chang</a>
+      <ul>
+        <li><a href="https://code.willbc.cn">Code</a></li>
+        <li><a href="https://music.willbc.cn">Music</a></li>
+        <li><a href="https://book.willbc.cn">Book</a></li>
+        <li><a href="https://blog.willbc.cn">Blog</a></li>
+        <li><a href="https://wiki.willbc.cn">Wiki</a></li>
+      </ul>
+    </nav>
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+    </main>
+  </body>
+</html>
