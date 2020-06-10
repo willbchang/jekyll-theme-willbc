@@ -40,3 +40,9 @@ nav li {
     padding: 2rem 3rem;
   }
 }
+
+@media screen and (max-width: 350px) {
+  nav ul li {
+    padding: 0 0.5rem;
+  }
+}
